@@ -6,6 +6,14 @@ Write-ups and notes for HackTheBox Starting Point and retired machines. Intended
 
 ---
 
+## 🌐 Read them online
+
+If you prefer not to install ``mkdocs-material`` and its dependencies locally to be able to edit the notes, you can just read them online at: 
+
+https://hollowdragonx.github.io/htb-machines/
+
+---
+
 ## 🚀 Getting Started
 
 These notes were made using ``mkdocs-material`` for a clean, navigable, and responsive experience, so it is highly recommended to use it for reading them.
