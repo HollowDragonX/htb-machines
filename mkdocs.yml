@@ -1,0 +1,71 @@
+site_name: HTB Machines
+
+theme:
+  name: material
+  font:
+    text: Jetbrains Mono
+    code: Fira Code
+  features:
+    - content.code.copy
+    - navigation.footer
+    - navigation.indexes
+    - navigation.path
+    - navigation.sections
+    - navigation.top
+    - search.highlight
+    - search.share
+    - search.suggest
+  palette:
+
+    # Dark mode palette
+  - scheme: slate
+    toggle:
+      icon: material/weather-sunny
+      name: Dark mode
+    primary: black
+    accent: indigo
+
+    # Light mode palette
+  - scheme: default
+    toggle:
+      icon: material/weather-night
+      name: Light mode
+    primary: black
+    accent: indigo
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - md_in_html
+  - pymdownx.blocks.caption
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+plugins:
+  - search
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/HollowDragonX
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@hollowdragonx
+    - icon: fontawesome/brands/reddit
+      link: https://www.reddit.com/user/hollowdragonx
+
+copyright: Copyright &copy; 2025 HollowDragonX
